@@ -1,6 +1,7 @@
 # Prometheus Monitoring Stack
 
-Система мониторинга и алертинга на базе Prometheus.
+Система мониторинга и алертинга серверов OpenVPN и CA на базе Prometheus.
+Все серверы настроены в YandexCloud, Ubuntu 20.
 
 ## Что реализовано
 
