@@ -18,7 +18,7 @@
   
 # Архитектура
 [Node Exporter] → [Prometheus] → [Alertmanager] → [Telegram / Email]
-## 📊 Monitoring
+## Monitoring
 
 ## Тестирование
 
