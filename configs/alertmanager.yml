@@ -1,1 +1,20 @@
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'example@gmail.com'
+  smtp_auth_username: 'example@gmail.com'
+  smtp_auth_password: 'example_pass'
+  smtp_require_tls: true
 
+route:
+  receiver: default
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 1m
+
+receivers:
+  - name: default
+    email_configs:
+      - to: 'example@gmail.com'
+        send_resolved: true
+    webhook_configs:
+      - url: http://localhost:8080
