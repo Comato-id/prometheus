@@ -2,6 +2,7 @@
 
 Система мониторинга и алертинга серверов OpenVPN и CA на базе Prometheus.
 Все серверы настроены в YandexCloud, Ubuntu 20.
+
 ![Targets](images/YC.png)
 
 ## Что реализовано
