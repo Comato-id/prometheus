@@ -19,6 +19,13 @@
 [Node Exporter] → [Prometheus] → [Alertmanager] → [Telegram / Email]
 ## 📊 Monitoring
 
+## Тестирование
+
+Для проверки алертов:
+- остановить сервис (например node-exporter)
+- убедиться, что алерт перешёл в firing
+- проверить уведомления (Telegram / Email)
+
 ### Prometheus Targets
 ![Targets](images/prometheus-targets-up.png)
 
