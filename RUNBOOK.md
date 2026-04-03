@@ -1,8 +1,30 @@
-1.Установка node-exporter для серверов CA и VPN с созданием system-d-юнита
-2. Установка OpenVPN exporter на server-vpn с созданием system-d-юнита
-3. Установка Prometheus на prometheus-server, создание главного файла конфигурации prometheus.yml, sysytem-d-юнита
-4. Настройка AlertManager, файла конфигурации alertmanager.yml, system-d юнита, настройка алертов на почту
-5. Правила алертов - alertms.yml
-6. Подключение алертов в prometheus.yml
-7. Настройка iptables и доступа через SSH
-8. Создание и настройка бота Телеграмм для отправки алертов
+# RUNBOOK
+
+## 1. Node Exporter
+Установить node-exporter на сервера CA и VPN.
+Создать systemd unit.
+
+## 2. OpenVPN Exporter
+Установить exporter на server-vpn.
+
+## 3. Prometheus
+Установить Prometheus.
+Настроить prometheus.yml.
+Создать systemd unit.
+
+## 4. Alertmanager
+Настроить alertmanager.yml.
+Добавить email уведомления.
+
+## 5. Alerts
+Создать файл alerts.yml.
+
+## 6. Интеграция
+Подключить alerts.yml в prometheus.yml.
+
+## 7. Безопасность
+Настроить iptables.
+Ограничить SSH доступ.
+
+## 8. Telegram
+Создать бота и подключить webhook.
