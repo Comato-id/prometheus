@@ -4,10 +4,7 @@ test-server
 ## 📊 Monitoring
 
 ### Prometheus Targets
-![Targets](images/targets.png)
-
-### Alert Firing
-![Alert](images/alert-firing.png)
+![Targets](images/prometheus-targets-up.png)
 
 ### Telegram Notification
 ![Telegram](images/telegram-alert.png)
